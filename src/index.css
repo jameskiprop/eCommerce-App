@@ -13,4 +13,9 @@ font-family: Outfit * {
   font-style: normal;
 }
 
-@media (max-width:640px)
+@media (max-width: 640px) {
+  a.active {
+    background-color: black;
+    color: white;
+  }
+}
