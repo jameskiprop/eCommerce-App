@@ -28,7 +28,7 @@ const Product = () => {
       {/* Product Data */}
       <div className="flex gap-12 sm:gap-12 flex-col sm:flex-row"></div>
 
-      {/* Product Images */}
+      {/* ----------Product Images------------ */}
       <div className="flex-1 flex flex-col-reverse gap-3 sm:flex-row">
         <div className="flex sm:flex-col overflow-x-auto sm:overflow-y-scroll justify-between sm:justify-normal sm: w-[18.7% w-full">
           {productData.image.map((item, index) => (
@@ -45,7 +45,25 @@ const Product = () => {
           <img src="w-full h-auto" alt="" />
         </div>
       </div>
-      {/* Product information*/}
+      {/* =------------Product information----------------*/}
+      <div className="flex-1">
+        <h1 className="font-medium text-2xl mt-2">
+          {productData.name}
+          <div className="flex items-center gap-1 mt-2">
+            <img src="/star_icon.png" alt="" className="w-3 5" />
+            <img src="/star_icon.png" alt="" className="w-3 5" />
+            <img src="/star_icon.png" alt="" className="w-3 5" />
+            <img src="/star_icon.png" alt="" className="w-3 5" />
+            <img src="/star_dull_icon.png" alt="" className="w-3 5" />
+            <p className="pl-2">(122)</p>
+          </div>
+          <p className="mt-5 text-3xl font-medium">
+            {/* {currency} */}
+            {productData.Price}
+          </p>
+          <p>{productData}</p>
+        </h1>
+      </div>
     </div>
   ) : (
     <div className="opacity-0"></div>
