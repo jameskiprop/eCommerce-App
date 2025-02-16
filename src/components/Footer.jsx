@@ -24,14 +24,14 @@ const Footer = () => {
           <p className="text-xl font-medium mb">GET IN TOUCH</p>
           <ul className="flex flex-col gap-1 text-gray-600">
             <li>+ 254-703-556-700</li>
-            <li>contact@jayApparrel.com </li>
+            <li>contact@merchhub.com </li>
           </ul>
         </div>
       </div>
       <hr />
       <p className="py-5 text-sm text-center">
         {" "}
-        Copyright 2024@jayApparrel.com-All Rights Reserved
+        Copyright 2024@merchhub.com-All Rights Reserved
       </p>
     </div>
   );
