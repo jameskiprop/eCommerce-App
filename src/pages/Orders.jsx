@@ -33,12 +33,21 @@ const Orders = () => {
                   <p>Size:M</p>
                 </div>
                 <p>
-                  Date:{" "}
+                  cd Date:{" "}
                   <span className="text-gray-400"> 12th January 2025</span>
                 </p>
               </div>
             </div>
-            <div></div>
+
+            <div className="md:w-1/2 flex justify-between">
+              <div className="flex items-center gap-2">
+                <p className="min-w-2 h-2 rounded-full bg-green-500"></p>
+                <p className="text-sm md:text-base ">Ready to Ship</p>
+              </div>
+              <button className="border px-4 py-2 text-sm font-medium rounded-sm">
+                Track Order
+              </button>
+            </div>
           </div>
         ))}
       </div>
