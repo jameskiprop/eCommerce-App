@@ -10,9 +10,7 @@ const NewsletterBox = () => {
       <p className="text-2xl font-medium text-gray-800">
         Subscribe now and get 20% off
       </p>
-      <p className="text-gray-400 mt-3">
-        Lorem ipsum is a great dummy text for web pages
-      </p>
+      <p className="text-black-400 mt-3">Enjoy our great deals.</p>
       <form
         onSubmit={onSubmitHandler}
         className="w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 border border-gray-300 rounded-lg pl-3 py-2"

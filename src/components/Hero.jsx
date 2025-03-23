@@ -15,13 +15,16 @@ const Hero = () => {
             Latest Arrivals
           </h1>
           <div className="flex items-center gap-2">
-            <p className="font-semibold text-sm md:text-base"> SHOP NOW</p>
+            <p className="font-semibold text-sm md:text-base">
+              {" "}
+              SHOP WITH US NOW AND ENJOY THE FINEST DEALS!
+            </p>
             <p className="w-8 md:w-11 h-[1px] bg-[#414141]"></p>
           </div>
         </div>
       </div>
       {/* Hero right side */}
-      <img className="w-full sm:w-1/2 " src="/hero_img.png" alt="" />
+      <img className="w-full sm:w-1/2 " src="/hero_img.jpg" alt="" />
     </div>
   );
 };

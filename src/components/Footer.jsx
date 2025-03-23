@@ -5,10 +5,10 @@ const Footer = () => {
     <div>
       <div className="flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm">
         <div>
-          <img src="/logo.png" className="mb-5 w-32"></img>
+          <img src="/logo_img.jpg" className="mb-5 w-32"></img>
           <p className="w-full md:w-2/3 text-gray-600">
-            Forever is a great online store that is meant to deliver food to
-            various store outlets in the world
+            MerchHub is a great online Apparel Store that aims at delivering
+            top-notch services to its clients
           </p>
         </div>
         <div>
@@ -31,7 +31,7 @@ const Footer = () => {
       <hr />
       <p className="py-5 text-sm text-center">
         {" "}
-        Copyright 2024@merchhub.com-All Rights Reserved
+        Copyright 2025@merchhub.com-All Rights Reserved
       </p>
     </div>
   );
